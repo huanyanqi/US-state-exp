@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="score.js" defer></script>
+    <script src="click.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Your U.S. States Experience</h1>
+    </header>
+    <main>
+        <section class="map-section">
+            <div id="map">
+                <object data="us.svg" type="image/svg+xml" id="svgmap"></object>
+            </div>
+        </section>
+        <div class="lived-square"></div>
+        <div class="lived-text"> Lived Here </div>
+
+        <div class="stayed-square"></div>
+        <div class="stayed-text"> Stayed Here </div>
+
+        <div class="visited-square"></div>
+        <div class="visited-text"> Visited Here </div>
+
+        <div class="alighted-square"></div>
+        <div class="alighted-text"> Alighted Here </div>
+
+        <div class="passed-square"></div>
+        <div class="passed-text"> Passed Here </div>
+
+        <div class="never-square"></div>
+        <div class="never-text"> Never Been Here </div>
+
+    </main>
+    <footer>
+        <div id="total-points">
+            <p>Total Points: <span id="points">0</span></p>
+        </div>
+        <div id="points-str-div">
+            Points String: 
+            <input type="text" value="" id="points-str"  size="55" maxlength="50">
+            <button onclick="copyPointStr()">Save Progress</button>
+            <button onclick="loadPointStr()">Load Progress</button>
+        </div>
+
+
+    </footer>
+</body>
+</html>

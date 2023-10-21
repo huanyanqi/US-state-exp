@@ -1,0 +1,179 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9DC3FB;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.map-section {
+    flex: 2;
+}
+
+.state-status-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#state-status label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#total-points {
+    font-size: 40px;
+}
+
+#points-str-div {
+    font-size: 16px;
+}
+
+#points {
+    font-weight: bold;
+}
+
+.lived-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #e84c3d; 
+    position: absolute; 
+    top: 150px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.lived-text {
+    position: absolute;
+    top:  160px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stayed-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #d58337; 
+    position: absolute; 
+    top: 210px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.stayed-text {
+    position: absolute;
+    top:  220px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.visited-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #f3c218; 
+    position: absolute; 
+    top: 270px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.visited-text {
+    position: absolute;
+    top:  280px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.alighted-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #30cc70; 
+    position: absolute; 
+    top: 330px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.alighted-text {
+    position: absolute;
+    top:  340px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.passed-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #3598db; 
+    position: absolute; 
+    top: 390px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.passed-text {
+    position: absolute;
+    top:  400px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.never-square {
+    width: 60px; 
+    height: 30px; 
+    background-color: #ffffff; 
+    position: absolute; 
+    top: 450px; 
+    left: 250px;
+    border: 3px solid black;
+}
+
+.never-text {
+    position: absolute;
+    top:  460px;
+    left: 330px;
+    font-size: 16px;
+    font-weight: bold;
+}
