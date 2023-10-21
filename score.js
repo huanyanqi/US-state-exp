@@ -105,7 +105,9 @@ function updateColor() {
 
     for (const state in statePoints) {
         const statePath = svgDocument.getElementById(state);
-        statePath.style.fill = colorDict[statePoints[state]];
+        if (statePath) {
+            statePath.style.fill = colorDict[statePoints[state]];
+        }
     }
 }
 
