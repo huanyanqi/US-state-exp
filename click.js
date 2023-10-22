@@ -14,8 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 var t = document.createElementNS("http://www.w3.org/2000/svg", "text");
                 t.setAttribute("transform", "translate(" + (box.x + box.width/2) + " " + (box.y + box.height/2) + ")");
                 t.textContent = `${stateAbbrev[state]}`;
-                t.setAttribute("font-size", "12");
-                t.setAttribute("font-family", "Arial");
+                t.setAttribute("font-size", "14");
+                t.setAttribute("font-family", "sans-serif");
+                t.setAttribute("fill", "black");
                 t.setAttribute("unselectable", "on");
                 statePath.parentNode.insertBefore(t, statePath.nextSibling);
 

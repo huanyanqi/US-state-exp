@@ -64,14 +64,14 @@ const stateAbbrev = {
 const colorLived = "rgb(232, 76, 61)";
 const colorStayed = "rgb(213, 131, 55)";
 const colorVisited = "rgb(243, 194, 24)";
-const colorAlight = "rgb(48, 204, 112)";
+const colorAlighted = "rgb(48, 204, 112)";
 const colorPassed = "rgb(53, 152, 219)";
 const colorNone = "rgb(255, 255, 255)";
 
 const colorDict = {
     0: colorNone,
     1: colorPassed,
-    2: colorAlight,
+    2: colorAlighted,
     3: colorVisited,
     4: colorStayed,
     5: colorLived
